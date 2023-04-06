@@ -1,5 +1,4 @@
 import styles from './TopPageComponent.module.css';
-// import cn from 'classnames';
 import { TopPageComponentProps } from './TopPageComponent.props';
 import { Advantages, HhData, Htag, Product, Sort, Tag } from '../../components';
 import { TopLevelCategory } from '../../interfaces/toppage.interface';
@@ -12,16 +11,13 @@ export const TopPageComponent = ({
   products,
   firstCategory,
 }: TopPageComponentProps): JSX.Element => {
-  const [{ products: sortedProducts, sort }, dispachSort] = useReducer(
+  const [{ products: sortedProducts, sort }, dispathSort] = useReducer(
     sortReducer,
-    {
-      products,
-      sort: SortEnum.Rating,
-    }
+    { products, sort: SortEnum.Rating }
   );
 
   const setSort = (sort: SortEnum) => {
-    dispachSort({ type: sort });
+    dispathSort({ type: sort });
   };
 
   return (
@@ -29,7 +25,7 @@ export const TopPageComponent = ({
       <div className={styles.title}>
         <Htag tag='h1'>{page.title}</Htag>
         {products && (
-          <Tag color='green' size='m'>
+          <Tag color='gray' size='m'>
             {products.length}
           </Tag>
         )}
