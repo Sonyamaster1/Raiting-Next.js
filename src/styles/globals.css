@@ -1,0 +1,25 @@
+:root {
+  --font-family: 'Noto Sans KR', sans-serif;
+  --black: #3b434e;
+  --gray-light: #ebebeb;
+  --primary-hover: #4d29dd;
+  --white: #ffffff;
+  --primary: #7653fc;
+  --red: #fc836d;
+  --green: #1dc47e;
+  --green-ligth: #c8f8e4;
+  --gray-dark: #787D75;
+  --gray: #A4A4A4;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  color: var(--black);
+  background: #e5e5e5;
+}
