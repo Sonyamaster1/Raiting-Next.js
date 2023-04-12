@@ -1,47 +1,52 @@
 .tag {
-  display: inline-block;
-  box-sizing: border-box;
-  margin-right: 5px;
-  border-radius: 20px;
+	display: inline-block;
+
+	box-sizing: border-box;
+	margin-right: 5px;
+	border-radius: 20px;
 }
 
 .s {
-  padding: 5px 10px;
-  font-size: 12px;
-  line-height: 12px;
+	padding: 5px 10px;
+
+	font-size: 12px;
+	line-height: 12px;
 }
 
 .m {
-  padding: 5px 10px;
-  font-size: 14px;
-  line-height: 14px;
+	padding: 5px 10px;
+
+	font-size: 14px;
+	line-height: 14px;
 }
 
 .ghost {
-  border: 1px solid var(--gray-light);
+	border: 1px solid var(--gray-light);
 }
 
 .red {
-  background: #de0000;
-  color: var(--white);
-  font-weight: bold;
+	color: var(--white);
+	background: #DE0000;
+
+	font-weight: bold;
 }
 
-.gray {
-  background: #b3c0d9;
-  color: var(--white);
-  font-weight: bold;
+.grey {
+	color: var(--white);
+	background: #B3C0D9;
+
+	font-weight: bold;
 }
 
 .green {
-  background: var(--green-ligth);
-  color: var(--green);
-  font-weight: bold;
+	color: var(--green);
+	background: var(--green-light);
+
+	font-weight: bold;
 }
 
 .primary {
-  background: none;
-  color: var(--primary);
-  font-weight: bold;
-  border: 1px solid var(--primary-hover);
+	color: var(--primary);
+	background: none;
+	border: 1px solid var(--primary);
 }

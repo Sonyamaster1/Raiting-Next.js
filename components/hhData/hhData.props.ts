@@ -1,3 +1,5 @@
-import { HhData } from '../../interfaces/toppage.interface';
+import { HhData } from '../../interfaces/page.interface';
 
-export interface HhDataProps extends HhData {}
+export interface HhDataProps extends HhData {
+
+}

@@ -1,5 +1,5 @@
 import { GetStaticPaths, GetStaticProps, GetStaticPropsContext } from 'next';
-import { withLayout } from '../../../components/Layout/Layout';
+import { withLayout } from '../../../layout/Layout';
 import axios from 'axios';
 import { MenuItem } from '../../../interfaces/menu.interface';
 import { firstLevelMenu } from '../../../helpers/helpers';

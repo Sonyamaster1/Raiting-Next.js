@@ -7,7 +7,7 @@ import {
 } from '../../../interfaces/toppage.interface';
 import { GetStaticPaths, GetStaticProps, GetStaticPropsContext } from 'next';
 import { ParsedUrlQuery } from 'querystring';
-import { withLayout } from '../../../components/Layout/Layout';
+import { withLayout } from '../../../layout/Layout';
 import { firstLevelMenu } from '../../../helpers/helpers';
 import { TopPageComponent } from '../../../page-components';
 
