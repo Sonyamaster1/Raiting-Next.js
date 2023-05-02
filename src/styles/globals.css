@@ -7,19 +7,22 @@
   --primary: #7653fc;
   --red: #fc836d;
   --green: #1dc47e;
-  --green-ligth: #c8f8e4;
+  --green-light: #c8f8e4;
   --gray-dark: #787D75;
   --gray: #A4A4A4;
+  --light-red: #fea291;
 }
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  text-decoration: none;
 }
 
 html,
 body {
   color: var(--black);
   background: #e5e5e5;
+  text-decoration: none;
 }
